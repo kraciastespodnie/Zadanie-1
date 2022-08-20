@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <style>
+      * {
+        font-size: 24px;
+      }
+      .social-list .social-list-link {
+        color: black;
+        font-weight: 600;
+        cursor: pointer; /* pointer jest domslny dla linkow, a dla buttona nie*/
+        text-decoration: none;
+      }
+
+      .social-list .social-list-link:hover {
+        color: aquamarine;
+      }
+
+      .social-list .social-list-link:focus {
+        color: pink;
+      }
+
+      .social-list .social-list-link:active {
+        color: red;
+      }
+
+      .social-list .social-list-link:visited {
+        color: green;
+      }
+
+      .btn {
+        border: 1px black;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <ul class="social-list">
+      <li>
+        <a href="https://twitter.com" class="social-list-link">Twitter</a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com" class="social-list-link"
+          >Instagram</a
+        >
+      </li>
+      <li>
+        <a href="https://www.facebook.com" class="social-list-link">Facebook</a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/test" class="social-list-link"
+          >Facebook non-visited</a
+        >
+      </li>
+      <li><button class="link">button</button></li>
+      <li><div class="link">div</div></li>
+    </ul>
+  </body>
+</html>
